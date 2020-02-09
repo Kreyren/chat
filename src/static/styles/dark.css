@@ -19,10 +19,9 @@ body,
 
 #send,
 .chat-form .form-control,
-#emic{
-	border-color: #7f3f98;
-}
 
 #emic_btn{
-	background:#7f3f98;
+	float:right;
+	position: sticky;
+	background: none;
 }

@@ -12,16 +12,15 @@
 </head>
 <body>
 	<div class="chat">
-		<div id="offline"><span class="big">Server is offline.</span><br />Sorry for that.</div>
+		<div id="offline"><span class="big">Server is offline</span><br />Sorry for that</div>
 		<ul id="msgs" class="msgs"></ul>
 		<ul id="typing" class="msgs"></ul>
 		<ul id="emic" style="display:none;"></ul>
 		<div class="chat-form">
+			<textarea id="form_input" class="form-control" data-user-id="2" placeholder="Type something .." rows="2"></textarea>
 			<button id="emic_btn">
 				<img src="static/emic/white-smiling-face.png" width="20px" height="20px" title="White Smiling Face">
 			</button>
-			<textarea id="form_input" class="form-control" data-user-id="2" placeholder="Type something ..." rows="1"></textarea>
-			<button id="send">Send</button>
 			<ul id="users"></ul>
 		</div>
 	</div>
